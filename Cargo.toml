@@ -1,0 +1,14 @@
+[package]
+name = "rs-locker"
+version = "0.1.0"
+description = "A simple experimental CLI tool written in Rust to lock and unlock directories using a password-based system. Ideal for basic personal data storage in a custom `vault-like` file format."
+authors = ["mahikoishor <mahikoishor@gmail.com>"]
+edition = "2021"
+repository = "https://github.com/mahikoishor/rs-locker"
+readme = "README.md"
+include = ["src/**", "README.md", "Cargo.toml"]
+
+
+[dependencies]
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.141"

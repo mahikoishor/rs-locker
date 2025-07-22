@@ -1,0 +1,1 @@
+pub const DATA_FILE_NAME: &str = "my-locker.lock";
